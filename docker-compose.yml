@@ -1,8 +1,8 @@
 version: "3.9"
 services:
   app:
-    image: lasermig_front
-    container_name: lasermig_front
+    image: tdmvp_front
+    container_name: tdmvp_front
     tty: true
     restart: always
     stdin_open: true
