@@ -9,7 +9,7 @@ export const DefaultButton = styled(Button)`
 
   color: ${ColorScheme.PRIMARY};
   background-color: ${ColorScheme.ACCENT};
-  border-radius: 45px;
+  border-radius: 16px;
   box-shadow: none !important;
 
   font-family: ${FontNamespace.BN};

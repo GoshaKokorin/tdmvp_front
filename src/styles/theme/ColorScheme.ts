@@ -1,7 +1,7 @@
 enum ColorScheme {
   ACCENT = "#487BFF",
   ACCENT_2 = "#2659DC",
-  PRIMARY = "#3C3C3C",
+  PRIMARY = "#FFFFFF",
   SECONDARY = "#7E7E7E",
   TERTIARY = "#D1D1D1",
   WHITE = "#FFFFFF",
