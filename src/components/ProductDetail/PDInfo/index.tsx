@@ -50,7 +50,7 @@ const PDInfo = (props: PDInfoProps) => {
           </PDInfoItem>
         )}
         {accessories && (
-          <PDInfoItem title="КОМПЛЕКТУЮЩИЕ" initialOpen={isAccessories}>
+          <PDInfoItem title="ОПИСАНИЕ" initialOpen={isAccessories}>
             <ContentSC>
               <TextSC>{accessories}</TextSC>
             </ContentSC>

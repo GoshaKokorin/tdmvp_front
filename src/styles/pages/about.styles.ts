@@ -32,8 +32,8 @@ const TitleSC = styled("h1")`
 const ContainerInfoSC = styled("section")``;
 
 const BottomImageSC = styled("img")`
-  width: 100%;
-  max-height: 596px;
+  width: 40%;
+  // max-height: 596px;
   margin-bottom: 16px;
 
   @media (max-width: ${Breakpoints.BIG_TABLET}px) {

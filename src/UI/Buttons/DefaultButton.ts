@@ -7,7 +7,7 @@ export const DefaultButton = styled(Button)`
   height: 60px;
   padding: 0 30px;
 
-  color: ${ColorScheme.PRIMARY};
+  color: ${ColorScheme.WHITE};
   background-color: ${ColorScheme.ACCENT};
   border-radius: 16px;
   box-shadow: none !important;

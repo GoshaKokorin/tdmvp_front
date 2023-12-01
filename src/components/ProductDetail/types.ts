@@ -7,7 +7,7 @@ export interface PDFirstProps
 export interface PDInfoProps
   extends Pick<
     ProductDetailModel,
-    "advantages" | "product_characteristics" | "accessories" | "guarantees"
+    "advantages" | "product_characteristics" | "accessories" | "guarantees" | "description"
   > {}
 
 export interface PDInfoItemProps extends ChildrenProps {
@@ -29,5 +29,5 @@ export interface PDSwiperProps
 export interface PDTopProps
   extends Omit<
     ProductDetailModel,
-    "advantages" | "product_characteristics" | "accessories" | "guarantees"
+    "advantages" | "product_characteristics" | "accessories" | "guarantees" | "description"
   > {}

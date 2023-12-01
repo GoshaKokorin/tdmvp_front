@@ -32,9 +32,9 @@ const Home = ({ slider, category, news }: HomeProps) => {
       <ContainerSC className="padding">
         <Questions />
       </ContainerSC>
-      <div className="padding">
+      {/* <div className="padding">
         <HomeNews news={news} />
-      </div>
+      </div> */}
     </TitleLayout>
   );
 };

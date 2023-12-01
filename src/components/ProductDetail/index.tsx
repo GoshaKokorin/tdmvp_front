@@ -8,6 +8,7 @@ const ProductDetail = ({
   product_characteristics,
   accessories,
   guarantees,
+  description,
   ...otherProps
 }: ProductDetailModel) => {
   return (
@@ -16,7 +17,7 @@ const ProductDetail = ({
       <PDInfo
         advantages={advantages}
         product_characteristics={product_characteristics}
-        accessories={accessories}
+        accessories={description}
         guarantees={guarantees}
       />
     </section>

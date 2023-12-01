@@ -6,6 +6,8 @@ services:
     tty: true
     restart: always
     stdin_open: true
+    volumes:
+      - .:/app
     ports:
       - "5779:3000"
     build:

@@ -36,6 +36,7 @@ const LeftSC = styled("div")`
 
 const TitleSC = styled(H1SC)`
   max-width: 365px;
+  color: ${ColorScheme.WHITE};
 
   @media (max-width: ${Breakpoints.BIG_TABLET}px) {
     max-width: none;

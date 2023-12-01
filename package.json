@@ -15,7 +15,7 @@
     "@mui/material": "^5.14.5",
     "@mui/styled-engine-sc": "^5.12.0",
     "axios": "^1.4.0",
-    "next": "^14.0.1",
+    "next": "^14.0.3",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

@@ -25,7 +25,7 @@ const PDSecond = ({
             )}
           </AdditionalSC>
         )}
-        {description && <DesSC>{description}</DesSC>}
+        {/* {description && <DesSC>{description}</DesSC>} */}
       </BottomSC>
     </ContainerSC>
   );

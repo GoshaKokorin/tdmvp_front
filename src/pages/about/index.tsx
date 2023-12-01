@@ -18,6 +18,16 @@ const About = () => {
             {aboutPageData.list.title}
           </H2SC>
         </ContainerInfoSC>
+        <figure className="content-margin48" style={{
+          display: "flex",
+          justifyContent: "center",
+        }}>
+            <BottomImageSC
+              className="content-br" 
+              src={aboutPageData.bottom.image}
+            />
+          
+          </figure>
         <Questions />
       </div>
     </TitleLayout>
