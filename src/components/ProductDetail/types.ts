@@ -30,4 +30,6 @@ export interface PDTopProps
   extends Omit<
     ProductDetailModel,
     "advantages" | "product_characteristics" | "accessories" | "guarantees" | "description"
-  > {}
+  > {
+  description: string;
+}

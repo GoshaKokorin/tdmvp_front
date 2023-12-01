@@ -13,13 +13,13 @@ const ProductDetail = ({
 }: ProductDetailModel) => {
   return (
     <section className="padding">
-      <PDTop {...otherProps} />
+      <PDTop description={""} {...otherProps} />
       <PDInfo
         advantages={advantages}
         product_characteristics={product_characteristics}
         accessories={description}
-        guarantees={guarantees}
-      />
+        guarantees={guarantees} 
+        description={""}      />
     </section>
   );
 };
